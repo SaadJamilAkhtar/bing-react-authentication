@@ -1,0 +1,5 @@
+https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=2fa385a5-349d-4a05-8093-8e33911202b8&scope=openid%20profile%20https://ads.microsoft.com/msads.manage%20offline_access2fa385a5-349d-4a05-8093-8e33911202b8&response_type=code&redirect_uri=http://localhost:8000/callback&state=12345&prompt=login&client_secret=P1me.4hDXT0uRw4Am6.5.97kZ3.4SuEpOM
+
+
+
+https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=80468b36-3fed-44c3-9d3d-00e7c065e5c0&scope=openid%20profile%20https://ads.microsoft.com/msads.manage%20offline_access&response_type=code&redirect_uri=http://localhost:8000&state=12345&prompt=login&client_secret=P1me.4hDXT0uRw4Am6.5.97kZ3.4SuEpOM
