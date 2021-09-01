@@ -23,8 +23,8 @@ function Home() {
 
 function Callback() {
     let code = window.location.href.split("?")[1].split("&")[0].split("=")[1]
-    let client_id = '2fa385a5-349d-4a05-8093-8e33911202b8'
-    let client_secret = 'P1me.4hDXT0uRw4Am6.5.97kZ3.4SuEpOM'
+    let client_id = 'Your client id'
+    let client_secret = 'your client secret'
     let url = "https://login.microsoftonline.com/common/oauth2/v2.0/token?" +
         "client_id=" + client_id +
         "&scope=https://ads.microsoft.com/msads.manage%20offline_access" +
@@ -53,8 +53,8 @@ function Callback() {
 }
 
 function action() {
-    let client_id = '2fa385a5-349d-4a05-8093-8e33911202b8'
-    let client_secret = 'P1me.4hDXT0uRw4Am6.5.97kZ3.4SuEpOM'
+    let client_id = 'Your client id'
+    let client_secret = 'Your client secret'
     let url = "https://login.microsoftonline.com/common/oauth2/v2.0/authorize?" +
         "client_id=" + client_id +
         "&scope=openid%20profile%20https://ads.microsoft.com/msads.manage%20offline_access" +
